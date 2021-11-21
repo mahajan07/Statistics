@@ -1,0 +1,94 @@
+The amount of information and data that are becoming available to us is growing exponentially. As the amount of available data grows, so is our need to understand it
+Statistics is the science of learning from data and data professionals develop the skills needed to analyze data and to communicate their findings.
+Broadly, there are three main reasons why statistical literacy is essential in data science.
+First, it provides the skills to assess whether the data are sufficient to answer the questions at hand.
+Second, it establishes a rigorous framework for quantifying uncertainty.
+And finally, it provides techniques for effectively communicating the findings of your analyses.
+
+* Descriptive statistics.
+That is, ways to summarize data with numbers and graphs. This is important because most people prefer to look at figures, rather than at numbers.
+So, it's best to communicate information with figures whenever possible
+The two most important functions are to communicate information, and to support reasoning about the data. 
+Which description to choose will depend on the nature of the data and the goal of the visualization for a certain problem.
+Qualitative data : pie chart / Dot plot -  data that is not numbers but categories
+Quantitative data: Bar graph, histogram  - data that should be put to number line
+Histogram tells about density of the data and we can find % of sample using the viz. using area = h x w; height of block on y axis and length on x axis and its accounts for %age.
+Box and whisker plot: finds 5 key values of data- lower, upper, and median and 1st and 3rd quartile >> 5 number summary
+(each group has its own box plot)
+Scatter plot - data that comes in pairs(education and income) visualize relationship in 2 variables.
+* Providing Context in very important for statistical analyses while comparing the observed data to reference. We need it for graphical intergrity(information).
+Using principle of small multiples for providing information using figures or plots that help user decode more information.
+
+* Statistical Numerical Measures
+Mean - average
+median - central tendency(midpoint)
+Mean anad median is same when histogram is symmetric
+skewness of graph needs to be checked before using and mean median values. 
+Stdand Deviation >> xbar = avg(x1, x2,...xn) and std D = sqrt(1/n * sum(xi - xbar)sqred)
+it looks at the difference of each number from its average, squares the difference, and then looks at the average of those squared differences. And finally, it takes the square root.
+
+
+* Statistical Inference
+Population         - entire group of subjects abot which we want information (all US voters).
+parameter          - all quantity about population we are interested in (approval % among all US voters).
+Sample             - part of population from which we collect information (1000 Voters).
+Statistic(estimate)- quantity we are interested in as measured in sample.
+
+example:
+A simple way would be to select 1,000 voters from your neighborhood, say your hometown, this is called the sample of convenience and it's not a good way to sample.
+The reason is that the voters of your hometown will likely be different from the population of US voters.
+For example, voters on the West Coast and on the East Coast tend to be more Democratic voters, whereas voters in the Midwest tend to vote more Republican.
+This will introduce what's called a bias--
+*  Selection bias            >> A sample of convenience makes it more likely to sample certain subjects than others.
+*  Non-response bias         >> means that the people who choose to respond to the question may be different from the non-responders.
+For example, parents are less likely to answer a survey request at 6 pm because they are busy with children and dinner.
+*  Voluntary response bias  >>  The reviews you see there are not very representative 
+Because those reviews are more likely to come from customers who had very bad or very good experiences and therefore feel strongly about writing a review.
+
+*he best way to avoid such biases is to use chance in some planned way in the sampling called a simple random sample. 
+It means that subjects are selected at random without replacement.
+So if you sample 1,000 voters out of the yes population, that means each sample of size 1,000 is equally likely to be selected.
+A popular way to do that is using random digit dialing, that means the computer will dial telephone numbers at random.
+
+* More sophisticated way to sample is stratified random sampling.
+the population is divided into groups of similar objects called strata.
+Play video starting at :2:59 and follow transcript2:59
+For example, the yes voters would be divided in urban voters, suburban voters, and rural voters.
+Then a simple random sample is chosen in each stratum and the results are combined.
+This sampling can result in a more precise estimate than with simple random sampling. However, it's more complicated to execute.
+
+* Main Problem is Error:
+Since the sample is drawn at random, the estimate will be somewhat off from the two-population parameter. This is called chance error.
+Also, keep in mind that if we draw another sample, we will get a somewhat different chance error.
+There may be a bias if our sampling is not done well. And finally, there's a chance error which is unavoidable.
+Things are quite different for the bias which is also called systematic error. If we increase the sample size, the bias will not get smaller.
+
+Estimate = parameter + bias + chance error
+The chance error is unavoidable, it turns out, we can make it small by taking a bigger sample size.
+
+Association/corellation does not cause causation.
+
+# Randomized Controlled Experiments
+
+ For example, if we have a new medication against high blood pressure, then the treatment would be to take this medication. The group that gets the treatment is called a treatment group, and the other group is called the control group.
+ After we assign the treatment, we compare the outcomes in the two groups. We have already seen that confounders can be a problem. For that reason, the two groups should be similar.
+ Of course, the treatment is different in the two groups. The best way to make sure that the two groups are similar is to assign the persons into the two groups at ___random__.
+ The way to think about the random assignment is that for each subject we toss a coin and if it comes up heads then the subject goes into the treatment group and if it comes up tails it will go in the control group.
+ 
+ Another precaution we should take is that every subject in the control group gets a placebo. A placebo is very similar to the treatment but it doesn't do anything.
+ In the example where we want to test a new medication against high blood pressure, the treatment might consist of a pill then the placebo would also be a pill which doesn't have any medication in it. Why would we do that?
+ 
+ It turns out that the idea of being treated may already have an effect by itself. This is called the placebo effect. Assigning a placebo to the control group makes sure that both groups are equally affected by this placebo effect.
+ 
+ The third precaution is that the experiment should be double-blind. That means that neither the subject nor the evaluators know which subjects are assigned to the treatment, and which are assigned to control.
+ This is done to avoid biases.
+ 
+ PLACEBO EFFECT:
+ The placebo effect is still not fully understood and is one of most interesting phenomena in science. brain resnick expained placebo effect!
+ A substance that has neutral effect and which cannot distinguish from the treatment and is assigned to control group.
+ 
+ The logic of randomized controlled experiments serves 2 main points:
+ It makes treatment group similar to controlled group, therefore inflences other than treatment operate equally on both groups, apart from differences due to chance.
+ It allows to assess how relevant the treatment effect is, by calculating the size of chance effects when comparing the outcomes in 2 groups.
+
+
