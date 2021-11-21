@@ -12,8 +12,19 @@ The two most important functions are to communicate information, and to support 
 Which description to choose will depend on the nature of the data and the goal of the visualization for a certain problem.
 Qualitative data : pie chart / Dot plot -  data that is not numbers but categories
 Quantitative data: Bar graph, histogram  - data that should be put to number line
-Histogram tells about density of the data and we can find % of sample using the viz. using area = h x w; height of block on y axis and length on x axis.
-Box and whisker plot: finds 5 key values of data- lower, upper, and median and 1st and 3rd quartile 
+Histogram tells about density of the data and we can find % of sample using the viz. using area = h x w; height of block on y axis and length on x axis and its accounts for %age.
+Box and whisker plot: finds 5 key values of data- lower, upper, and median and 1st and 3rd quartile >> 5 number summary
 (each group has its own box plot)
 Scatter plot - data that comes in pairs(education and income) visualize relationship in 2 variables.
 * Providing Context in very important for statistical analyses while comparing the observed data to reference. We need it for graphical intergrity(information).
+Using principle of small multiples for providing information using figures or plots that help user decode more information.
+
+* Statistical Numerical Measures
+Mean - average
+median - central tendency(midpoint)
+Mean anad median is same when histogram is symmetric
+skewness of graph needs to be checked before using and mean median values. 
+Stdand Deviation >> xbar = avg(x1, x2,...xn) and std D = sqrt(1/n * sum(xi - xbar)sqred)
+it looks at the difference of each number from its average, squares the difference, and then looks at the average of those squared differences. And finally, it takes the square root.
+
+
