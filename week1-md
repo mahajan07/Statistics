@@ -1,0 +1,13 @@
+The amount of information and data that are becoming available to us is growing exponentially. As the amount of available data grows, so is our need to understand it
+Statistics is the science of learning from data and data professionals develop the skills needed to analyze data and to communicate their findings.
+Broadly, there are three main reasons why statistical literacy is essential in data science.
+First, it provides the skills to assess whether the data are sufficient to answer the questions at hand.
+Second, it establishes a rigorous framework for quantifying uncertainty.
+And finally, it provides techniques for effectively communicating the findings of your analyses.
+
+* Descriptive statistics.
+That is, ways to summarize data with numbers and graphs. This is important because most people prefer to look at figures, rather than at numbers.
+So, it's best to communicate information with figures whenever possible
+The two most important functions are to communicate information, and to support reasoning about the data. 
+Which description to choose will depend on the nature of the data and the goal of the visualization for a certain problem.
+
