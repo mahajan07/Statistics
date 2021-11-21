@@ -10,4 +10,10 @@ That is, ways to summarize data with numbers and graphs. This is important becau
 So, it's best to communicate information with figures whenever possible
 The two most important functions are to communicate information, and to support reasoning about the data. 
 Which description to choose will depend on the nature of the data and the goal of the visualization for a certain problem.
-
+Qualitative data : pie chart / Dot plot -  data that is not numbers but categories
+Quantitative data: Bar graph, histogram  - data that should be put to number line
+Histogram tells about density of the data and we can find % of sample using the viz. using area = h x w; height of block on y axis and length on x axis.
+Box and whisker plot: finds 5 key values of data- lower, upper, and median and 1st and 3rd quartile 
+(each group has its own box plot)
+Scatter plot - data that comes in pairs(education and income) visualize relationship in 2 variables.
+* Providing Context in very important for statistical analyses while comparing the observed data to reference. We need it for graphical intergrity(information).
