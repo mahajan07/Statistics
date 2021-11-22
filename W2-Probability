@@ -3,3 +3,29 @@ For example, if somebody says, "The probability that my best friend calls today 
 today, the particular circumstances of today happened only once. So, what this person means is there's simply a subjective feeling of 30% that this event will happen.
 
 So, this is called a subjective probability. It's not based on experiments, and different people may assign different probabilities to the same event.
+
+Probabilities are always between 0 and 1. The key for computing probabilities is to apply a few rules repeatedly. We already saw that the probability that a newborn is a girl is 48.8%,
+so, what's the probability that a newborn is a boy?Well, that's the opposite so, it's 1 - 48.8%, which is 51.2%. And that's already our first rule.
+
+*This is the complement rule >> P(A does not occur) = 1- P(A) >> here P(0 is new born in a girl
+
+A die has six sides and each of them is equally likely. So each side has probability 1/6 of coming up. 
+
+* This is our second rule. It's called the rule for equally likely outcomes.
+If there are N possible outcomes and they are equally likely, then the probability of an event A is the number of outcomes in A, divided by N
+>>> P(A is the number of outcomes in A) / N
+
+
+# Computer Prob of Multiple Events #
+
+A and B are called mutually exclusive if they cannot occur at the same time. 
+Let's look at an example. Suppose we roll a die twice. Let's call the event A, to be the event where we see one spot on the first roll, B is the event where
+we see six spots on the first roll, and C is the event where we see one spot on the second roll. 
+
+Then A and B are mutually exclusive, because if we have one spot on the first roll, then we cannot have six spots on the first roll.But A and C are not mutually exclusive
+because if you have one spot on the first roll, then we can also have one spot on the second roll.* So here is our 
+# third rule, it's called the addition rule. If the events A and B are mutually exclusive, then the 
+>>>     P(A or B) happening = sum[P(A) + P(B) ]  
+
+* So the last rule is the multiplication rule. It says if A and B are independent, 
+>>> then the P( A and B )happening = P( A ) x P( B ).
