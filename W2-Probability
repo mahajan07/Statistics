@@ -29,4 +29,3 @@ because if you have one spot on the first roll, then we can also have one spot o
 
 * So the last rule is the multiplication rule. It says if A and B are independent, 
 >>> then the P( A and B )happening = P( A ) x P( B ).
- 
