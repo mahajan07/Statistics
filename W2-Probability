@@ -29,3 +29,35 @@ because if you have one spot on the first roll, then we can also have one spot o
 
 * So the last rule is the multiplication rule. It says if A and B are independent, 
 >>> then the P( A and B )happening = P( A ) x P( B ).
+
+# Conditional Probability
+To explain conditional probability, let's look at spam e-mail.
+Spam e-mail contains certain words with a higher frequency than non-spam e-mail, which is also called ham e-mail.
+For example, the word money, and that's because one reason people send spam e-mail is to get your money. The P(money|spam) =  8% & P( money in e-mail | ham ) = 1%.
+The conditional probability of B given A = P(B|A) = P(A and B) / P(A). The P(A and B) = P( A ) * P( B | A)
+If these are independent then P(A and B) = P(A)*P(B).
+
+P(spam) = 20%. Let's compute the probability that a randomly chosen e-mail has the word money in it. How would we do that?
+P( money | spam ) = 8%, and the P(money | ham) = 1%. Computing P(money) and I only have the conditional probability of money given spam/ham.
+The way this is done is, we can write the event that money appears in the e-mail as two events. 
+The event that money appears in the e-mail is spam or the event that money appears in the e-mail is ham.
+And now you see these two events are mutually exclusive because if the e-mail is spam, it cannot be ham. And since there's an or in between these two,we can use the addition rule.
+P( money appears) = P( money |spam ) + P( money | ham). Plug in the definition of conditional probability.
+=> P(money |spam)* P(spam) + P(money | ham) * P(ham) = 2.4%.
+
+BAYES RULE:
+P(B|A) = P(A and B) / P(A) =>> P(B and A) / P(A) =>> P(A|B)*P(B) / P(A)
+P(spam|money) =  P( money |spam ) * P(spam) / P(money)
+
+ANALYSIS:
+Before examining Prior probability of 20% that the email is spam.
+After examining, certain keywords like money, the filter updates Prior probability using Bayes rule and defines posterior prob that email is spam.
+
+False Positive means > its predicted False but it was actually positive!
+
+CASE STUDY: WARNERS RANDOMIZED RESPONSE MODEL>>
+What percentage of students have cheated during an exam in college? 
+This is being addressed with what's called randomization. 
+
+
+
